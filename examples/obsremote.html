@@ -265,7 +265,7 @@ function manageSceneState(data, UUID){ // incoming obs details
 					log("action request: "+this.dataset.obsAction);
 				}
 			}
-			obsControlButtonsBox.appendChild(controlButton);
+			//obsControlButtonsBox.appendChild(controlButton);
 		}
 		if (session.pcs[UUID].obsState && ("recording" in session.pcs[UUID].obsState)){
 			
@@ -340,7 +340,7 @@ function manageSceneState(data, UUID){ // incoming obs details
 					log("action request: "+this.dataset.obsAction);
 				}
 			}
-			obsControlButtonsBox.appendChild(controlButton);
+			//obsControlButtonsBox.appendChild(controlButton);
 		}
 	} catch(e){errorlog(e);} // just in case the client has disconnected.
 	
