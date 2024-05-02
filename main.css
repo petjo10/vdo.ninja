@@ -4564,7 +4564,7 @@ input:checked + .slider:before {
 	border-radius: 10px;
 	font-weight: bold;
 	z-index:31;
-	width:550px;
+	width:300px;
 	max-width:100%;
 	overflow: hidden;
 	overflow-wrap: break-word;
